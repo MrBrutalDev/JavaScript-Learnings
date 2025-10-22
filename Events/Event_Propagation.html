@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="background-color: #212121; color:azure">
+        <ul id="images">
+            <li id="image1">
+                <img src="Popcorn theatre image.jpeg" width="250px" alt="image1">
+            </li>
+            <li id="image2">
+                <img src="popcorn premium.jpeg" width="250px" alt="image2">
+            </li>
+        </ul>
+    </div>
+</body>
+<script>
+    const images = document.getElementByID('images')
+    images.addEventListner('click', function(e){
+        // console.log("Images Clicked")
+        alert('clicked')
+    })
+    document.getElementById('images').addEventListener('click', function(e){
+        console.log("images clicked")
+    },false)
+
+    const image1 = document.getElementById('image1')
+    image1.addEventListener('click', function(e){
+        console.log("image1 clicked")
+    },false)
+
+    //true and false in addEventListner is event propagation which is by default false
+    // it work as event bubbling when false - bubbling means insider element to outer element (can be stop using method stopPropagation())
+    // when true work as event capturing means outer element to inner element
+</script>
+</html>

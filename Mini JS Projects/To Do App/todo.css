@@ -1,0 +1,89 @@
+#container{
+    background-color: #7ab1f5;
+    display: flex;
+    flex-direction: column;
+    height: 750px;
+    width: 100%;
+    align-items:center;
+}
+#add-btn{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: aqua;
+    border: 5px;
+    border-radius: 6px;
+}
+#taskbar{
+    background-color: black;
+    width: 350px;
+    margin: 0px;
+    margin-left: 60px;
+    margin-top: 50px;
+    justify-content: space-between;
+    border-radius: 4px;
+}
+#todo-title{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#hero{
+    width: 500px;
+    height: 350px ;
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items: start;
+     border-radius: 8px;
+}
+#task-box{
+    padding: 6px;
+    padding-left: 15px;
+    margin: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: white;
+    border: 0.2px solid black;
+    border-radius: 2px;
+    width: 200px;
+}
+#task-list-container{
+    padding: 20px;
+    padding-left: 30px;
+    border-radius: 4px;
+    background-color: #fbbf24;
+    width: 600px;
+    height: 350px;
+    margin: 5px;
+    margin-right: 50px;
+}
+
+#donebtn{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    margin:10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 8px;
+    background-color: #4ade80;
+    border: 5px;
+    border-radius: 6px;
+}
+
+#deletebtn{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    margin: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 8px;
+    background-color: rgb(255, 0, 0);
+    border: 5px;
+    border-radius: 6px;
+}
